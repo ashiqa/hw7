@@ -1,0 +1,17 @@
+# PhiGrade configuration for 10-301/601 HW7 (RNN).
+course_id: "bf5c6c04-e8c4-4a18-8f12-9599258ba24a"
+assessment_id:
+  message: "Select the appropriate submission slot."
+  slots:
+    - slot_name: "Slot A"
+      slot_description: "For human work only."
+      slot_assessment_id: "8bddc40d-e252-47a3-ab01-e6f70f72e03a"
+    - slot_name: "Slot B"
+      slot_description: "For human or AI work."
+      slot_assessment_id: "f290249c-17e8-40e0-b723-637f45fa6704"
+use_local_server: false
+server_url: "https://phigrade-api.mlcourse.org"
+teacher_mode: false
+timeout_seconds: 5
+submission_files:
+  - rnn.py

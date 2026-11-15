@@ -1,0 +1,18 @@
+# HW7 (RNN) -- the environment for this assignment only.
+#
+#     conda env create -f environment.yml
+#     conda activate 601-hw7
+#
+# Keep the earlier assignments' environments; do not delete them to make room.
+# See ../README.md for why.
+name: 601-hw7
+dependencies:
+  - python=3.12.*
+  - pip
+  - pip:
+      - torch==2.5.1
+      - transformers==4.44.0
+      - numpy==2.2.4
+      - matplotlib
+      - phigrade>=3.6.0,<4
+      - pytest
